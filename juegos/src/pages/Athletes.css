@@ -1,0 +1,46 @@
+/* src/pages/Athletes.css */
+
+.athletes {
+    padding: 20px;
+  }
+  
+  .athletes h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .athlete-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .athlete-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    text-align: center;
+  }
+  
+  .athlete-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .athlete-info {
+    padding: 15px;
+  }
+  
+  .athlete-info h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .athlete-info p {
+    margin: 5px 0 0;
+  }
+  

@@ -1,0 +1,50 @@
+/* src/pages/Sports.css */
+
+.sports {
+    padding: 20px;
+  }
+  
+  .sports h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sports-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .sport-item {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .sport-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .sport-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .sport-info {
+    padding: 15px;
+  }
+  
+  .sport-info h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
